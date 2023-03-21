@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Portfolio de projets</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" type="text/css" href="style.css">
+    <style>
+        /* Styles pour le corps de la page */
+
+body {
+	margin: 0;
+	padding: 0;
+	font-family: Arial, sans-serif;
+}
+
+/* Styles pour le header */
+
+header {
+	background-color: #333;
+	color: #fff;
+	padding: 20px;
+}
+
+header h1 {
+	margin: 0;
+	font-size: 36px;
+}
+
+/* Styles pour la section des projets */
+
+.projects {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+}
+
+.projects article {
+	width: calc(33.33% - 20px);
+	margin-bottom: 40px;
+}
+
+.projects img {
+	max-width: 100%;
+}
+
+.projects h2 {
+	font-size: 24px;
+	margin: 10px 0;
+}
+
+.projects p {
+	font-size: 16px;
+	line-height: 1.5;
+	margin: 0;
+}
+
+/* Media Query pour les écrans plus petits */
+
+@media (max-width: 768px) {
+.projects article {
+width: calc(50% - 20px);
+}
+}
+
+    </style>
+</head>
+<body>
+	<header>
+		<h1>Portfolio de projets</h1>
+	</header>
+	<main>
+		<section class="projects">
+			<article>
+				<a href="#"><img src="project1-thumbnail.jpg" alt="Projet 1"></a>
+				<h2>Projet 1</h2>
+				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed eget massa a est ornare venenatis.</p>
+			</article>
+			<article>
+				<a href="#"><img src="project2-thumbnail.jpg" alt="Projet 2"></a>
+				<h2>Projet 2</h2>
+				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed eget massa a est ornare venenatis.</p>
+			</article>
+			<article>
+				<a href="#"><img src="project3-thumbnail.jpg" alt="Projet 3"></a>
+				<h2>Projet 3</h2>
+				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed eget massa a est ornare venenatis.</p>
+			</article>
+			<article>
+				<a href="#"><img src="project4-thumbnail.jpg" alt="Projet 4"></a>
+				<h2>Projet 4</h2>
+				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed eget massa a est ornare venenatis.</p>
+			</article>
+			<article>
+				<a href="#"><img src="project5-thumbnail.jpg" alt="Projet 5"></a>
+				<h2>Projet 5</h2>
+				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed eget massa a est ornare venenatis.</p>
+			</article>
+			<article>
+				<a href="#"><img src="project6-thumbnail.jpg" alt="Projet 6"></a>
+				<h2>Projet 6</h2>
+				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed eget massa a est ornare venenatis.</p>
+			</article>
+		</section>
+	</main>
+	<footer>
+		<p>&copy; Mon portfolio de projets 2023</p>
+	</footer>
+</body>
+</html>
